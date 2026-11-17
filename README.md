@@ -46,10 +46,10 @@ Sayfa uygulamanın kendisi gibi davranır ve örnek bir senaryo üzerinde gerçe
 Düğme şu adrese gider:
 
 ```
-https://github.com/dkarakurt/finkweb/releases/latest/download/fink.apk
+https://github.com/dkarakurt/blitzdate/releases/latest/download/fink.apk
 ```
 
-Bu repoda (finkweb) `fink.apk` dosyası içeren bir GitHub Release yayınlanınca çalışır: Releases → Draft a new release → etiket (ör. `v0.2`) → APK'yı `fink.apk` adıyla ekle → Publish. Adresi değiştirmek için `index.html` içinde `data-download` geçen satıra bak.
+Uygulama reposunda `fink.apk` dosyası içeren bir GitHub Release yayınlanınca çalışır. Adresi değiştirmek için `index.html` içinde `data-download` geçen satıra bak.
 
 ## Kuralları güncellemek
 
