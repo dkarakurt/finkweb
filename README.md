@@ -61,3 +61,14 @@ npx esbuild src/logic-entry.ts --bundle --format=iife --global-name=FinkLogic --
 ```
 
 Çıkan dosyayı bu repodaki `assets/fink-logic.js` ile değiştir.
+
+## Yasal sayfalar
+
+| Adres | Ne için |
+|---|---|
+| `/gizlilik/` | Gizlilik politikası (Play Console → Gizlilik politikası) |
+| `/hesap-silme/` | Hesap ve veri silme (Play Console → Veri güvenliği → silme bağlantısı) |
+| `/cocuk-guvenligi/` | Çocuk güvenliği standartları (Play Console → Çocuk güvenliği standartları) |
+| `/kosullar/` | Kullanım koşulları |
+
+Metinler `tools/legal.py` içinde; değiştirdikten sonra kökte `python3 tools/legal.py` çalıştır.

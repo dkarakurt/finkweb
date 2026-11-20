@@ -1,0 +1,23 @@
+/* Yasal sayfalar: sade, okunaklı, marka renkleriyle */
+:root { --canvas: #0F0D22; --surface: #1E1B3A; --ink: #EDEBF2; --soft: #ABA6C9; --line: #332F5C; --accent: #FFFF00; }
+* { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body { margin: 0; background: var(--canvas); color: var(--ink); font: 400 17px/1.7 "Inter", system-ui, sans-serif; }
+a { color: var(--accent); text-underline-offset: 3px; }
+a:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+.lg-bar { padding: 18px clamp(20px, 5vw, 48px); border-bottom: 1px solid var(--line); }
+.lg-brand { display: inline-flex; align-items: center; gap: 10px; color: var(--ink); text-decoration: none; font: 600 1.5rem/1 "Fredoka", system-ui, sans-serif; letter-spacing: -0.03em; }
+.lg-brand svg { width: 30px; height: 30px; color: var(--accent); }
+.lg-main { max-width: 44rem; margin: 0 auto; padding: clamp(32px, 6vw, 72px) clamp(20px, 5vw, 32px) 48px; }
+h1 { margin: 0; font: 600 clamp(2.2rem, 1.6rem + 3vw, 3.4rem)/1.02 "Fredoka", system-ui, sans-serif; letter-spacing: -0.03em; text-wrap: balance; }
+h2 { margin: 2.6rem 0 .6rem; font: 600 1.45rem/1.2 "Fredoka", system-ui, sans-serif; letter-spacing: -0.01em; }
+.lg-meta { margin: .8rem 0 2rem; color: var(--soft); font-size: .9rem; }
+p { margin: 0 0 1rem; }
+ul { margin: 0 0 1rem; padding-left: 1.2rem; }
+li { margin: .35rem 0; }
+li::marker { color: var(--accent); }
+strong { font-weight: 600; }
+code { font-size: .9em; background: var(--surface); padding: 1px 6px; border-radius: 6px; }
+.lg-foot { max-width: 44rem; margin: 0 auto; padding: 24px clamp(20px, 5vw, 32px) 48px; border-top: 1px solid var(--line); color: var(--soft); font-size: .88rem; }
+.lg-foot nav { display: flex; flex-wrap: wrap; gap: 6px 18px; margin-bottom: 10px; }
+.lg-foot nav a { color: var(--ink); }
